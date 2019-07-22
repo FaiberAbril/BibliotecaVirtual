@@ -1,0 +1,97 @@
+@font-face {
+    font-family: 'entypo-selected';
+    src: url("../font/entypo-selected.eot");
+    src: url("../font/entypo-selected.eot?#iefix") format('embedded-opentype'), url("../font/entypo-selected.woff") format('woff'), url("../font/entypo-selected.ttf") format('truetype'), url("../font/entypo-selected.svg#entypo-selected") format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+
+[class^="icon-"]:before,[class*=" icon-"]:before {
+    font-family: 'entypo-selected';
+    font-style: normal;
+    font-weight: normal;
+    speak: none;
+    display: inline-block;
+    text-decoration: inherit;
+    width: 1em;
+    margin-right: 0.2em;
+    text-align: center;
+    line-height: 1em;
+}
+
+.icon-cancel:before { 
+    content: '\2715'; 
+} 
+
+.icon-eye:before{
+    content:'Click Aquí';
+    font-family: fantasy;
+    margin-left: 30px;
+    margin-top: 15px;
+    font-size: 50px;
+}
+
+.demo-2 .uc-container {
+    width: 150px;
+    height: 135px;
+}
+
+
+
+.demo-2 .uc-final,.demo-2 .uc-initial-content,.demo-2 .uc-back,.demo-2 .uc-front {
+ background: rgba(172,207,99,7);
+}
+
+.demo-2 .icon-eye {
+    position: absolute;
+    top: 0;
+    left: 0;
+    color: transparent;
+    color: rgba(255,255,255,0);
+    width: 100%;
+    height: 100%;
+    background: rgba(25,25,25,0);
+    cursor: pointer;
+    -webkit-backface-visibility: hidden;
+    -moz-backface-visibility: hidden;
+    -o-backface-visibility: hidden;
+    -ms-backface-visibility: hidden;
+    backface-visibility: hidden;
+    -webkit-transition: all 0.3s linear;
+    -moz-transition: all 0.3s linear;
+    -o-transition: all 0.3s linear;
+    -ms-transition: all 0.3s linear;
+    transition: all 0.3s linear;
+}
+
+
+
+.no-touch .demo-2 .uc-initial-content:hover .icon-eye {
+    color: rgba(255,255,255,0.8);
+    background: rgba(172,207,99,9);   
+}
+
+.demo-2 .uc-initial-content {
+    display: block;
+}
+
+.demo-2 .icon-cancel:hover {
+    background: rgba(0,0,0,1);
+}
+
+.demo-2 .title {
+    position: absolute;
+    background: rgba(255,255,255,0.9);
+    width: 90%;
+    height: 90%;
+    margin:10px 10px 5px 15px;
+}
+
+.demo-2 .title h5 {
+    font-size: 16px;
+    color: #aaa;
+}
+
+.demo-2 .uc-current .uc-container{
+    background: rgba(172,207,99,0.7);
+}

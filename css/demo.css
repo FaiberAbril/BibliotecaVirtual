@@ -1,0 +1,94 @@
+
+
+body{
+}
+
+
+a
+{
+    text-decoration: none;
+}
+
+img
+{
+    width: 100%;
+    height: 100%;
+}
+
+
+
+.container 
+{
+
+   width:1024px;
+  height: auto; 
+}
+
+.main 
+{
+    width:1024px;
+    height: 900px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 50px;
+    position: relative;
+}
+
+.codrops-top 
+{
+    line-height: 24px;
+    font-size: 11px;
+    background: #fff;
+    background: rgba(255, 255, 255, 0.1);
+    text-transform: uppercase;
+    z-index: 9999;
+    position: relative;
+    font-family: Cambria, Georgia, serif;
+    box-shadow: 1px 0px 2px rgba(0,0,0,0.2);
+}
+
+.codrops-demos 
+{
+    padding: 4px 0px;
+}
+
+a.nounderline:link   
+{   
+ text-decoration:none;   
+}
+
+.row1{
+    margin-top: 20px;
+}
+
+.row2{
+    margin-top: 50px;
+}
+
+
+
+.cabezera{
+    width: 100%;
+    height: 10px;
+    background:  #57585A;
+}
+
+.cabezera1{
+    width: 100%;
+    height: 10px;
+    background:  #57585A;
+}
+
+
+
+
+.text-footer {
+    line-height: 15px;
+    font-size: 13px;
+    font-style: normal;
+    font-weight: normal;
+    color: #fff;
+    padding: 10px 0px 5px;
+    text-align: center;
+    background-color:  #57585A;
+}
